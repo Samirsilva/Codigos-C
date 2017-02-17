@@ -8,11 +8,16 @@
 
 -- Simulador de caixa eletronico.
 
+-- Simulador de diversas médias
+
+
+
 # Códigos
 
 -- Ordenação
 
---
+-- Manipulação de arquivos
+
 --
 --
 --
