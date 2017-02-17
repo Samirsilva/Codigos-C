@@ -1,7 +1,5 @@
 # Sistemas e Códigos de C/C++
 
-Sistema de Cadastro de Clientes em C/ C++
-
 --Autor: Samir Silva Santos
 
 # Sistemas
