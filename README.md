@@ -12,7 +12,7 @@ Sistema de Cadastro de Clientes em C/ C++
 
 # Códigos
 
---Ordenação
+-- Ordenação
 
 --
 --
