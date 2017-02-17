@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
+
 void CadastroCliente(int qt ,struct CLIENTE x[]);
 void ConsultarCliente(int qt,struct CLIENTE x[]);
 void ImprimirFichas(int qt ,struct CLIENTE x[]);
@@ -8,6 +9,7 @@ void QuantidadeSexo(int qt,struct CLIENTE x[]);
 void ExameMamografia(int qt,struct CLIENTE x[]);
 void ExamesMais(int qt,struct CLIENTE x[]);
  
+
 struct CLIENTE{
         int cpf , idade,exame,sexo;
         char nome[20],sobre[20],nomeMedi[20];
@@ -72,6 +74,7 @@ main(){
                         }
 system("pause");
 }
+
 void CadastroCliente(int qt, struct CLIENTE x[]){
        
         int i;
@@ -90,6 +93,7 @@ void CadastroCliente(int qt, struct CLIENTE x[]){
                         printf("\nNome do medico:");                                                                            scanf(" %s",&x[i].nomeMedi);
                         system("cls");
 }}
+
 void ConsultarCliente(int qt,struct CLIENTE x[]){
        
         int i , consul, cp, cont =0;
@@ -136,6 +140,7 @@ void ConsultarCliente(int qt,struct CLIENTE x[]){
                 cont++;        
                 }                      
 }
+
 void ImprimirFichas(int qt,struct CLIENTE x[]){
        
         int i,b,cont= 0;
@@ -175,6 +180,7 @@ void ImprimirFichas(int qt,struct CLIENTE x[]){
                 cont++;
                 }
 }
+
 void QuantidadeExames(int qt ,struct CLIENTE x[]){
    
          int i,cont=0,cont2=0,cont3=0,cont4=0,contW=0,a;
@@ -208,6 +214,7 @@ void QuantidadeExames(int qt ,struct CLIENTE x[]){
       contW++;
         }
 }
+
 void QuantidadeSexo(int qt,struct CLIENTE x[]){
        
           int i,cont=0,cont2=0,a,contW=0;
@@ -232,6 +239,7 @@ void QuantidadeSexo(int qt,struct CLIENTE x[]){
                         contW++;
                         }
 }
+
 void ExameMamografia(int qt,struct CLIENTE x[]){
        
         int i , contW = 0,a;
@@ -279,6 +287,7 @@ void ExameMamografia(int qt,struct CLIENTE x[]){
                         contW++;
                 }
 }
+
 void ExamesMais(int qt,struct CLIENTE x[]){
                
         int i,cont=0,cont2=0,cont3=0,cont4=0,contW=0,a;
@@ -322,6 +331,5 @@ void ExamesMais(int qt,struct CLIENTE x[]){
           system("cls");
          
       contW++;
-        }
-       
+        }   
 }
