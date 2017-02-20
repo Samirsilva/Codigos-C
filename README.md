@@ -22,4 +22,10 @@
 
 -- Malloc
 
---
+# Virus
+
+-- Lota HD com bagaço.
+
+-- Lota mémória com processos.
+
+-- Aloca o máximo de memória permitido.
